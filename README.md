@@ -51,11 +51,13 @@ Le operazioni includono:
 * **Analisi esplorativa** concentrata sull'analisi di compatibilità dei dati con due famose **leggi bibliometriche** (Lotka e Bradford) tramite aggregazioni (value_counts(), groupby()), ordinamenti .sort_index() e visualizzazioni tramite grafici a barre (plot.barh());
 * **Analisi esplicativa** focalizzata sul calcolo di un **punteggio di completezza dei metadati** di ogni contributo scientifico, per dimostare che metadati completi e ben strutturati influenzano la visibilità dei dati della ricerca. In questa fase è stato analizzato il caso studio della **rivista Bibliothecae.it**.
 
-## I risultati
+## Risultati
 
-L'analisi della distribuzione degli autori mostra un **andamento compatibile con la legge di Lotka**: la produzione scientifica è caratterizzata dalla presenza di molti autori occasionali e di un numero più limitato di autori maggiormente produttivi. La distribuzione degli articoli tra le riviste **conferma il principio alla base della legge di Bradford**.
+L'**interrogazione dell'API di Wikidata** ha permesso di recuperare i nomi degli autori per una parte dei record che inizialmente ne risultavano privi. L'arricchimento ha migliorato la completezza del dataset e ha consentito di includere un numero maggiore di record nelle analisi successive.
 
-L'analisi esplicativa evidenzia il ruolo della qualità descrittiva dei metadati nella rappresentazione della conoscenza scientifica. Il calcolo di un punteggio di completezza ha messo in luce che **i record associati alla rivista Bibliothecae.it si distinguono nettamente da quelli delle altre riviste presenti nel dataset**.
+L'analisi della distribuzione degli autori ha mostrato un **andamento compatibile con la legge di Lotka**: la produzione scientifica è caratterizzata dalla presenza di molti autori occasionali e di un numero più limitato di autori maggiormente produttivi. Anche la distribuzione degli articoli tra le riviste **conferma la legge di Bradford**.
+
+L'analisi esplicativa ha evidenziato il ruolo della qualità descrittiva dei metadati nella rappresentazione della conoscenza scientifica. Il calcolo di un punteggio di completezza ha messo in luce come **i contributi pubblicati dalla rivista Bibliothecae.it fossero meglio metadatati rispetto a quelli delle altre riviste presenti nel dataset**.
  
 ## Responsabili
 - Meneguzzo, Anna - https://orcid.org/0009-0003-5356-1717
