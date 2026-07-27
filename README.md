@@ -2,7 +2,7 @@
 
 ## DOI
 
-DOI del record su Zenodo
+https://doi.org/10.5281/zenodo.21625620
 
 ## Descrizione
 
