@@ -48,7 +48,7 @@ Le operazioni includono:
 * **Caricamento e ispezione dei dati** (pd.read_csv, df.info(), df.describe());
 * **Bonifica e normalizzazione dei dati** (conversione delle date in tipo int, bonifica della colonna autori, individuazione dei DOI duplicati);
 * **Arricchimento dei dati** della colonna autori attraverso l'interrogazione dell'**API di Wikidata**. Per i record privi di informazioni sugli autori è stato recuperato il valore della proprietà P2093 (author name string)
-* **Analisi esplorativa** concentrata sull'analisi di compatibilità dei dati con due famose **leggi bibliometriche** (Lotka e Bradford) tramite aggregazioni (value_counts(), groupby()), ordinamenti .sort_index() e visualizzazioni tramite grafici a barre (plot.barh());
+* **Analisi esplorativa** concentrata sull'analisi di compatibilità dei dati con due famose **leggi bibliometriche** (Lotka e Bradford) tramite aggregazioni (value_counts(), groupby()), ordinamenti .sort_index() e visualizzazioni tramite grafici a barre (plot.bar());
 * **Analisi esplicativa** focalizzata sul calcolo di un **punteggio di completezza dei metadati** di ogni contributo scientifico, per dimostare che metadati completi e ben strutturati influenzano la visibilità dei dati della ricerca. In questa fase è stato analizzato il caso studio della **rivista Bibliothecae.it**.
 
 ## Risultati
